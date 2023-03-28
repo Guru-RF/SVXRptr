@@ -3,9 +3,11 @@
 The drivers of [WM8960 Audio CHIP] for Raspberry Pi.
 The GPIO pinouts for driving (and reading) a repeater.
 
-### modify boot config (/boot/config.txt)
+### Modify boot config (/boot/config.txt)
 Search for dtoverlay=vc4-kms-v3d and add ,noaudio to the line
+```bash
 dtoverlay=vc4-kms-v3d,noaudio
+```
 
 ### Install wm8960-soundcard
 Get the wm8960 soundcard source code. and install all linux kernel drivers
@@ -23,8 +25,11 @@ $ aplay -l
 ```
 
 ### GPIO Pins
+Description of the GPIO pins
+```bash
 GPIO 7 -> output ... Drive High for disabling the audio bypass (audio is in bypass by default)
 GPIO 16 -> output ... Drive PTT (for any type of PTT (relay)
 GPIO 12 -> input ... depending on your tranceiver ... logic voltage can be between 3.3v and 24v
+```
 
 
