@@ -26,7 +26,7 @@ $ aplay -l
 
 ### GPIO Pins
 Description of the GPIO pins
-```bash
+```text
 GPIO 7 -> output ... Drive High for disabling the audio bypass (audio is in bypass by default)
 GPIO 16 -> output ... Drive PTT (for any type of PTT (relay)
 GPIO 12 -> input ... depending on your tranceiver ... logic voltage can be between 3.3v and 24v
