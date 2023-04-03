@@ -5,8 +5,8 @@ The GPIO pinouts for driving (and reading) a repeater.
 
 ### Update everything
 ```bash
-apt -y update
-apt -y upgrade
+sudo apt -y update
+sudo apt -y upgrade
 ```
 
 ### Modify boot config (/boot/config.txt)
