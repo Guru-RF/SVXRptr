@@ -7,6 +7,7 @@ The GPIO pinouts for driving (and reading) a repeater.
 ```bash
 sudo apt -y update
 sudo apt -y upgrade
+sudo reboot
 ```
 
 ### Modify boot config (/boot/config.txt)
