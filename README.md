@@ -20,7 +20,7 @@ dtoverlay=vc4-kms-v3d,noaudio
 Get the wm8960 soundcard source code. and install all linux kernel drivers
 
 ```bash
-cd audio
+cd WM8960-Audio-HAT
 sudo ./install.sh 
 sudo reboot
 ```
