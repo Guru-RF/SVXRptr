@@ -1,7 +1,11 @@
 # SVXrptr HAT (https://rf.guru)
-
 The drivers of [WM8960 Audio CHIP] for Raspberry Pi.
 The GPIO pinouts for driving (and reading) a repeater.
+
+### Clone repository and submodules
+```bash
+git clone --recurse-submodules git@github.com:Guru-RF/SVXRptr.git
+```
 
 ### Update everything
 ```bash
