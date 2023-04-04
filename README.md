@@ -3,6 +3,13 @@
 The drivers of [WM8960 Audio CHIP] for Raspberry Pi.
 The GPIO pinouts for driving (and reading) a repeater.
 
+### Update everything
+```bash
+sudo apt -y update
+sudo apt -y upgrade
+sudo reboot
+```
+
 ### Modify boot config (/boot/config.txt)
 Search for dtoverlay=vc4-kms-v3d and add ,noaudio to the line
 ```bash
